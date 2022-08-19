@@ -1,0 +1,176 @@
+@media (max-width: 1046px) {
+    .hide-laptop {
+        display: none;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .contacts {
+        .form {
+            flex-wrap: wrap;
+
+            &-button {
+                width: 100%;
+                margin-top: 60px;
+            }
+
+            &-row {
+                width: 100%;
+            }
+
+            &-item {
+                &.text-email {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .info {
+            font-size: 16px;
+        }
+
+        .form .title {
+            font-size: 60px;
+        }
+    }
+
+    .breadcrumbBlock {
+        margin-top: 100px;
+    }
+
+    .footer {
+        margin-top: 100px;
+
+        .row {
+            flex-wrap: wrap;
+        }
+
+        &-logo {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+
+        .rightsAndPolitic {
+            margin-top: 125px;
+        }
+
+        &-contacts .wrap .messangers {
+            margin-top: -30px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    header .col.dots-menu {
+        display: none;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer {
+        .row .col {
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                width: 40%;
+            }
+
+            &:nth-child(4) {
+                margin-top: 30px;
+            }
+        }
+
+        .rightsAndPolitic a {
+            width: initial;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .hide-mob {
+        display: none !important;
+    }
+
+    header .col.dots-menu {
+        position: initial;
+        display: flex;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .breadcrumbBlock .breadcrumb-item a {
+        font-size: 12px;
+    }
+
+    .contacts {
+        margin-top: 50px;
+
+        .form {
+            margin-top: 20px;
+
+            &-item {
+                width: 100% !important;
+                margin-top: 60px !important;
+
+                &.text-email {
+                    margin-left: 0;
+                }
+            }
+
+            &-row {
+                flex-wrap: wrap;
+            }
+
+            &-checkbox p {
+                line-height: 1.35;
+            }
+        }
+
+        .title {
+            font-size: 40px;
+        }
+    }
+
+    .footer {
+        .row .col {
+            &:not(:first-child) {
+                margin-top: 50px;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                width: 100%;
+            }
+
+            &:nth-child(1) {
+                margin-bottom: 0;
+            }
+        }
+
+        &-contacts .wrap .messangers {
+            margin-top: 20px;
+        }
+
+        .rightsAndPolitic {
+            margin-top: 55px;
+            flex-wrap: wrap;
+
+            span,
+            a {
+                width: 100%;
+            }
+
+            a {
+                margin-top: 10px;
+            }
+        }
+    }
+}

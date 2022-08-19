@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru-RU" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8; IE=9">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>test toimi</title>
+	<link rel="shortcut icon" type="image/png" sizes="32х32" href="img/favicon-32x32.png">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="logo col">
+					<img src="img/logo-toimi-black.svg" alt="LOGO" class="logo-img">
+				</div>
+
+				<div class="col hide-laptop">
+					<nav class="top-menu">
+						<a href="#">Проекты</a>
+						<a href="#">О компании</a>
+						<a href="#" class="active">Контакты</a>
+					</nav>
+				</div>
+
+				<div class="col flex hide-mob">
+					<div class="langs">
+						<a href="#" class="active">RU</a>
+						<a href="#">EN</a>
+					</div>
+					<div class="startProject">
+						<a href="#" type="button">Начать проект&nbsp;<img src="img/arrow.svg"></a>
+					</div>
+				</div>
+				<div class="col dots-menu flex">
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="breadcrumbBlock">
+		<div class="container">
+			<div class="row">
+				<nav>
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Главная</a></li>
+						<li class="breadcrumb-item active">Контакты</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="greeting">
+					<h1 class="title">Мы рядом</h1>
+					<p class="info">Заполните форму ниже и мы свяжемся с вами. Не любите формы?
+						Напишите нам на
+						почту
+						<a href="mailto:info@site.com" target="_blank">info@site.com</a>
+					</p>
+				</div>
+
+				<form class="form" action="">
+					<div class="form-inputs">
+						<div class="form-row">
+							<div class="form-item text-name">
+								<input class="form-control" name="name" id="contactsName"
+									type="text" required="">
+								<label for="contactsName">
+									Ваше имя
+									<span>*</span>
+								</label>
+							</div>
+
+							<div class="form-item text-email">
+								<input class="form-control" name="name" id="contactsMail"
+									type="text" required="">
+								<label for="contactsMail">
+									Ваш E-Mail
+									<span>*</span>
+								</label>
+							</div>
+						</div>
+
+						<div class="form-item text-commentary">
+							<input class="form-control" name="name" id="contactsCommentary"
+								type="text" required="">
+
+							<label for="contactsCommentary">
+								Комментарий
+								<span>*</span>
+							</label>
+						</div>
+
+						<label class="form-checkbox policy-check" for="policy">
+							<input type="checkbox" name="policy" id="policy" required="" checked="">
+							<p>Согласен с <a href="#" target="_blank">Политикой
+									конфиденциальности</a></p>
+						</label>
+
+
+					</div>
+					<div class="form-button">
+						<button type="submit">
+							<img class="icon" src="img/paperplane.svg">
+							<span class="send">Отправить</span>
+							<span class="thanks">Ваше сообщение<br>отправлено!</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-logo col">
+					<img src="img/logo-toimi-white.svg" alt="LOGO" class="logo-img">
+				</div>
+				<div class="services col">
+					<h3 class="title">Услуги&nbsp;&bullet;</h3>
+
+					<nav class="nav flex-column">
+						<a class="nav-link" href="#">Support and development</a>
+						<a class="nav-link" href="#">UI/UX and product design</a>
+						<a class="nav-link" href="#">Progressive Web <br> Applications (PWA)</a>
+					</nav>
+				</div>
+
+				<div class="footer-company col">
+					<h3 class="title">Компания&nbsp;&bullet;</h3>
+
+					<nav class="nav flex-column">
+						<a class="nav-link" href="#">О компании</a>
+						<a class="nav-link" href="#">Проекты</a>
+						<a class="nav-link" href="#">Контакты</a>
+					</nav>
+				</div>
+
+				<div class="footer-contacts col">
+					<h3 class="title">Контакты&nbsp;&bullet;</h3>
+
+					<div class="wrap">
+						<nav class="nav flex-column">
+							<a class="nav-link" href="#">Скачать презентацию <img
+									src="img/arrow1.svg" alt=""></a>
+							<a class="nav-link nav-phone" href="tel:+74999999999">+7 (499)
+								999-99-99</a>
+							<a class="nav-link" href="mailto:info@site.com">info@site.com</a>
+						</nav>
+						<div class="messangers">
+							<a href="https://t.me/MrDom2" target="_blank">
+								<img src="img/telega-icon.svg" alt="telegram">
+							</a>
+							<a href="https://t.me/MrDom2" target="_blank">
+								<img src="img/whatsapp-icon.svg" alt="whatapp">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="wrap rightsAndPolitic">
+					<span>© Company 2022. All rights reserved.</span>
+					<a href="#" target="_blank">Политика конфиденциальночти</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		const myform = document.querySelector(".form");
+
+		myform.addEventListener("submit", function (e) {
+			e.preventDefault();
+			myform.classList.add("trans");
+
+			setTimeout(function () {
+				myform.classList.remove("trans");
+				myform.reset();
+			}, 3000)
+		});
+	</script>
+
+</body>
+
+</html>
